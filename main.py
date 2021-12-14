@@ -4,7 +4,7 @@ from kivymd.app import MDApp
 from kivymd.uix.button import MDRectangleFlatButton
 
 
-class MainApp(MDApp):
+class HTMSApp(MDApp):
     def build(self):
         screen = Screen()
         screen.add_widget(
@@ -16,4 +16,4 @@ class MainApp(MDApp):
         return screen
 
 
-HTMS().run()
+HTMSApp().run()
