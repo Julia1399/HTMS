@@ -4,16 +4,16 @@ from kivymd.app import MDApp
 from kivymd.uix.button import MDRectangleFlatButton
 
 
-class HTMSApp(MDApp):
+class MainApp(MDApp):
     def build(self):
         screen = Screen()
         screen.add_widget(
             MDRectangleFlatButton(
-                text="ОНО РАБОТАЕТ!",
+                text="Нажми,если ты факапишь сроки",
                 pos_hint={"center_x": 0.5, "center_y": 0.5},
             )
         )
         return screen
 
 
-HTMSApp().run()
+MainApp().run()
